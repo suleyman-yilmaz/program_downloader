@@ -109,15 +109,6 @@ section {
     margin: 0 10px;
     transition: background-color 0.3s, color 0.3s;
 }
-
-.social-media a.facebook {
-    background-color: #3b5998;
-}
-
-.social-media a.twitter {
-    background-color: #1da1f2;
-}
-
 .social-media a.instagram {
     background-color: #e1306c;
 }
@@ -129,4 +120,12 @@ section {
 .social-media a:hover {
     color: #fff;
     opacity: 0.8;
+}
+.social-media a.gmail {
+    background-color: #db4437; /* Gmail kırmızı rengi */
+    color: #fff; /* Beyaz metin rengi */
+}
+
+.social-media a.gmail:hover {
+    background-color: #c1351d; /* Üzerine gelince daha koyu kırmızı */
 }
