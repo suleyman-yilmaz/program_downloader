@@ -1,0 +1,132 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f2f5; /* Lighter background color */
+}
+
+header {
+    background-color: #282c34; /* More modern dark color */
+    color: #f9f9f9; /* Lighter text color */
+    padding: 1.5rem;
+    text-align: center;
+    position: relative;
+}
+
+#webTitle {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+    background-color: #ffffff;
+    border-radius: 8px; /* Rounder corners */
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* More pronounced shadow */
+}
+
+.category-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.browser-item,
+.program-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.browser-item a {
+    margin-left: 10px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.browser-item a:hover {
+    text-decoration: underline;
+}
+
+#downloadButton {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#trButton, #enButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+
+.browser-item span,
+.program-item span {
+    margin-right: 1rem;
+    flex: 1;
+    color: #333333;
+}
+
+.download-section {
+    display: flex;
+    justify-content: center; /* Center the download button */
+    margin-top: 2rem;
+}
+
+#downloadBtn {
+    background-color: #007BFF; /* Blue color */
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#downloadBtn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.social-media a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 18px;
+    margin: 0 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.social-media a.facebook {
+    background-color: #3b5998;
+}
+
+.social-media a.twitter {
+    background-color: #1da1f2;
+}
+
+.social-media a.instagram {
+    background-color: #e1306c;
+}
+
+.social-media a.linkedin {
+    background-color: #0077b5;
+}
+
+.social-media a:hover {
+    color: #fff;
+    opacity: 0.8;
+}
